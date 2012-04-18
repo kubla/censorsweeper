@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>CensorSweeper - by Dan Kaminsky, Joseph Van Geffen, and Michael Tiffany</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="js/sitelist.js"></script>
+<script src="js/jshashtable-2.1.js"></script>
+</head>
+<body>
+    <nav>
+        <div id="totalcount"><div id="total_num">0</div></div>
+        <img src="images/logo.png" width="400" height="75" alt="CensorSweeper"><a href="javascript:grabtons(0);"><div class="startButton"></div></a>
+        <div id="badcount"><div id="bad_num">0</div></div>
+    </nav>
+    <section id="good"></section>
+    <section id="bad_name"></section>
+	<script src="js/creategrid.js"></script>
+    <script src="js/sensorsweeper.js"></script>
+</body>
+</html>
