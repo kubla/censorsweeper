@@ -104,6 +104,7 @@ div.startButton:hover {
 	background: url("../images/squares32.gif") top left no-repeat;
 	position:relative;
 	display:inline-block;
+	font-size:9px;
 }
 
 .square:hover {
